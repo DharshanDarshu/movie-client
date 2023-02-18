@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer {
+  .navElement {
+    @apply flex items-center text-sm font-semibold cursor-pointer;
+  }
+}
+
+.imageBlur {
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 15px -15px 30px 15px rgba(0, 0, 0) inset;
+}
