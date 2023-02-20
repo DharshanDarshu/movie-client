@@ -12,7 +12,7 @@ async function AddMovie() {
   const languageData = await languageRes.json();
   const categoryData = await categoryRes.json();
   return (
-    <div>
+    <div className='flex flex-col justify-center items-center'>
       <MovieForm
         languages={languageData}
         categories={categoryData}
